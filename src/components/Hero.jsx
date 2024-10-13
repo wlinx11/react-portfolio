@@ -13,6 +13,7 @@ const container = (delay) => ({
 
 function Hero({ language }) {
   return (
+    <section className="pt-24">
     <div className="border-b border-neutral-900 pb-20 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
@@ -66,6 +67,7 @@ function Hero({ language }) {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 

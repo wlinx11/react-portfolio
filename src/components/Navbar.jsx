@@ -35,7 +35,7 @@ const PdfIconWrapper = styled(IconWrapper)`
 
 const Navbar = ({ language, toggleLanguage }) => {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6">
+    <nav className="mb-20 flex items-center justify-between py-6 fixed top-0 left-0 right-0 z-50">
       <div className="m-4 flex items-center justify-center gap-2 text-2xl"></div>
       <div className="m-4 flex items-center justify-center gap-4 text-2xl fixed right-4">
         {/* Iconos de LinkedIn, WhatsApp y PDF con animación */}
