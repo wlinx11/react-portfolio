@@ -1,10 +1,18 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import sandar from "../assets/projects/sandar.jpg";
 import VIVEL from "../assets/projects/VIVEL.jpg";
 import SISOGEM from "../assets/projects/SISOGEM.jpg";
-import sandar2 from "../assets/projects/sandar2.jpg";
+import SISOGEM3 from "../assets/projects/SISOGEM3.jpg";
+import sandar6 from "../assets/projects/sandar6.jpg";
+import sandar3 from "../assets/projects/sandar3.jpg";
+import sandar4 from "../assets/projects/sandar4.jpg";
+import sandar5 from "../assets/projects/sandar5.jpg";
+import notaria641 from "../assets/projects/notaria641.jpg";
+import notaria642 from "../assets/projects/notaria642.jpg";
+import notaria643 from "../assets/projects/notaria643.jpg";
 import * as DevIcons from "devicons-react";
+import { AlignVerticalJustifyCenter } from "lucide-react";
 
 export const HERO_CONTENTS = {
   en: `I'm Roboam Ismael Rangel Ceja, a computer systems engineering student specializing in software engineering with experience in frontend development.`,
@@ -41,8 +49,9 @@ export const PROJECTS = [
       en: "SISOGEM - Government Organs System of the State of Michoacán",
       es: "SISOGEM - Sistema de Órganos de Gobierno del Estado de Michoacán",
     },
-    image: project2,
-    secondImage: SISOGEM,
+    image: SISOGEM,
+    secondImage: SISOGEM3,
+    thirdImage: project2,
     description: {
       en: "I participated in the development of a governmental platform with features like digital signatures, real-time document editor, and file management, improving efficiency in the state’s administrative processes.",
       es: "Participé en el desarrollo de una plataforma gubernamental con características como firmas digitales, editor de documentos en tiempo real y gestión de archivos, mejorando la eficiencia en los procesos administrativos del estado.",
@@ -53,7 +62,7 @@ export const PROJECTS = [
       "AWS",
       "Express.JS",
       "MongoDB",
-      "ANT Design",
+      "Ant Design",
     ],
   },
   {
@@ -61,13 +70,30 @@ export const PROJECTS = [
       en: "Sandar Inmuebles - Real Estate Platform",
       es: "Sandar Inmuebles - Página Inmobiliaria",
     },
-    image: project3,
-    secondImage: sandar2,
+    image: sandar,
+    secondImage: sandar4,
+    thirdImage: sandar5,
+    fourthImage: sandar6,
+    fifthImage: sandar3, 
     description: {
       en: "I developed a real estate platform with property management services, analytics generation, messaging box, and comprehensive property management, facilitating interaction between users and agents.",
       es: "Desarrollé una plataforma inmobiliaria con servicios de administración de propiedades, generación de analíticas, buzón de mensajería y gestión integral de inmuebles, facilitando la interacción entre usuarios y agentes.",
     },
-    technologies: ["REACT", "Tailwind CSS", "FireBase", "AntDesign"],
+    technologies: ["REACT", "Tailwind CSS", "FireBase", "Ant Design"],
+  },
+  {
+    title: {
+      en: "Notaria 64 - Administrative System",
+      es: "Notaria 64 - Sistema Administrativo",
+    },
+    image: notaria641,
+    secondImage: notaria642,
+    thirdImage: notaria643,
+    description: {
+      en: "I was involved in the development of an administrative system for a notarial firm where processes such as wills, procedures, comparisons and powers of attorney are managed. Where you can record progress, notify, check statistical data, etc.",
+      es: "Estuve involucrado en el desarrollo de un sistema administrativo para una firma notarial en donde se manejan procesos tales como testamentos, tramites, cotejos y poderes notariales. En donde se puede registrar avances, notificar, checar datos estadisticos, etc.",
+    },
+    technologies: ["Next.js", "FireBase", "Shadcn", "Lucide"],
   },
 ];
 
